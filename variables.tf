@@ -18,15 +18,3 @@ variable "instance_type" {
   default = "t2.large"
 }
 
-variable "access_credential" {
-  type    = string
-  default = "AKIAQY6GKTXNK65OVS5W"
-}
-
-variable "secret_credential" {
-  type    = string
-  default = "PSzfn6njc0DY/c2ijH8RNgSZawWc9u3eeJSUjHVb"
-}
-
-# export AWS_ACCESS_KEY_ID=AKIAQY6GKTXNK65OVS5W
-# export AWS_SECRET_ACCESS_KEY=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
